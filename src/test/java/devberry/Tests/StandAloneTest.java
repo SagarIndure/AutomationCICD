@@ -10,6 +10,8 @@ import devberry.pageobjects.CartPage;
 import devberry.pageobjects.CheckOutPage;
 import devberry.pageobjects.ProductCatalogue;
 
+
+//New Comment to check the CICD integration
 public class StandAloneTest extends BaseTest {
 
 	@Test
