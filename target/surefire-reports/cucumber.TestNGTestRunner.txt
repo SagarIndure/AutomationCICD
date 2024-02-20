@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.383 s <<< FAILURE! -- in cucumber.TestNGTestRunner
+cucumber.TestNGTestRunner.runScenario["Positive test of purchasing product", "Purchase the product from ecommerce application"](1) -- Time elapsed: 6.714 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "requireCountry" is null
+	at devberry.pageobjects.CheckOutPage.selectCountry(CheckOutPage.java:71)
+	at devberry.stepDefinitions.StepDefinitionImpl.i_Want_To_Check_The_Product(StepDefinitionImpl.java:46)
+	at ✽.I want to check the product ZARA COAT 3 and submit the order(file:///Users/sagarindurepatil/eclipse-workspace/SeleniumFrameworkDesign/src/test/java/cucumber/SubmitOrder.feature:18)
+
